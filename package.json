@@ -10,10 +10,7 @@
     "type": "git",
     "url": "git@github.com:iarna/write-file-atomic.git"
   },
-  "keywords": [
-    "writeFile",
-    "atomic"
-  ],
+  "keywords": ["writeFile", "atomic"],
   "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org)",
   "license": "ISC",
   "bugs": {
@@ -21,7 +18,7 @@
   },
   "homepage": "https://github.com/iarna/write-file-atomic",
   "dependencies": {
-    "graceful-fs": "^4.1.11",
+    "graceful-fs": "mekwall/node-graceful-fs#patch-1",
     "imurmurhash": "^0.1.4",
     "signal-exit": "^3.0.2"
   },
@@ -32,7 +29,5 @@
     "standard": "^10.0.2",
     "tap": "^10.3.2"
   },
-  "files": [
-    "index.js"
-  ]
+  "files": ["index.js"]
 }
